@@ -1,0 +1,28 @@
+<div class="col-lg-8">
+  <h1 class="h1-strong">
+    {{title}}
+  </h1>
+  <div id="data-profile" *ngIf="visit">
+    <div class="visit-name pull-left">
+      <div class="clearfix"></div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Correo</th>
+            <th scope="col">Motivo de Visita</th>
+            <th scope="col">Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{visit.nombre}}</td>
+            <td>{{visit.correo }}</td>
+            <td> {{visit.motivo_visita}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>

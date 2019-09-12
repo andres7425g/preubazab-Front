@@ -1,0 +1,7 @@
+{
+    "/index.php/*": {
+        "target":"http://localhost/simple",
+        "secure": false,
+        "changeOrigin": true
+    }
+}
